@@ -1,10 +1,5 @@
 streamlit
-gtts
-pandas
-numpy
-streamlit-autorefresh
- gTTS
-streamlit
 gTTS
 pandas
 numpy
+streamlit-autorefresh
