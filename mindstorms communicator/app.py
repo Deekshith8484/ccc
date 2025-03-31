@@ -20,7 +20,7 @@ if st.button("🔁 Restart Conversation"):
     st.session_state.current_step = 0
     st.session_state.audio_html = []
     st.session_state.step_completed = False
-    st.experimental_rerun()
+    st.rerun()
 
 # Display conversation
 for i in range(len(st.session_state.audio_html)):
