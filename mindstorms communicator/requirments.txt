@@ -3,3 +3,8 @@ gtts
 pandas
 numpy
 streamlit-autorefresh
+ gTTS
+streamlit
+gtts
+pandas
+numpy
