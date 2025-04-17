@@ -8,16 +8,16 @@ app_style = """
         color: #545454;
     }
 
-    /* Heading Styles */
-    .css-10trblm, .css-1v3fvcr {
-        color: #0f27f7 !important;  /* Dark Blue for Title */
-        background-color: #ff66c4 !important;  /* Pink background */
-        padding: 10px;
+    /* Override the Streamlit title styling directly */
+    h1 {
+        color: #0f27f7;
+        background-color: #ff66c4;
+        padding: 0.5rem;
         border-radius: 10px;
         text-align: center;
     }
 
-    /* Conversation Styles */
+    /* Chat messages for Carer and Patient */
     .chat-container {
         display: flex;
         flex-direction: column;
@@ -33,6 +33,7 @@ app_style = """
         font-size: 18px;
         color: white;
         background: linear-gradient(135deg, #01d9fe, #0788fe, #8c66ff, #e946fe);
+        background-size: 400% 400%;
         animation: flowColors 10s ease infinite;
     }
 
@@ -71,7 +72,6 @@ app_style = """
         color: #e946fe;
     }
 
-    /* Gradient animation for conversation */
     @keyframes flowColors {
         0% { background-position: 0% 50%; }
         50% { background-position: 100% 50%; }
