@@ -4,6 +4,8 @@ from conversation import conversation, patient_responses
 from tts import text_to_speech
 from state import initialize_state
 from styles import app_style
+from styles import app_style
+st.markdown(app_style, unsafe_allow_html=True)
 
 # Initialize state
 initialize_state()
